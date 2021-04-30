@@ -1,1 +1,3 @@
-.table-section {}
+@use 'mixin';
+
+tr:nth-child(even) {background:rgb(170, 170, 170)}
